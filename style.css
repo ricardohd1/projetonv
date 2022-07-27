@@ -1,0 +1,212 @@
+*{
+  margin: 0px;
+  padding: 0;
+}
+body{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+ 
+}
+.riot{
+  width: 15vw;
+position: relative;
+ left: 6vw;
+ top: 10vw;
+}
+ .logi{
+  position: relative;
+  top: 12vw;
+  left: 10vw;
+ }
+ .senha{
+  position: relative;
+  top: 13.2vw;
+  left: 0.8vw;
+ }
+
+ .log{
+  position: relative;
+  top: 12vw;
+  left: 13vw;
+ }
+
+.btn-log{
+  opacity:0.4;
+}
+.but{
+  opacity: 1;
+}
+.outro{
+height: 10vw;
+}
+.check{
+color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 6000px)
+{
+
+.riot{
+ width: 48vw;
+ position: relative;
+ left: 26vw;
+ top: 20vw;
+}
+.log{
+  font-size: 4vw;
+  width:25vw;
+  position: relative;
+  top:30vw ;
+  left:40vw;
+  text-shadow: bold;
+}
+.logi{
+  font-size: 3vw;
+ padding-bottom: 6vw;
+ padding-left: 2vw;
+  width:55vw;
+  position: relative;
+  top:35vw;
+  left:25vw ;
+}
+.senha{ 
+  font-size: 3vw;
+  padding-bottom: 6vw;
+ padding-left: 2vw;
+  width:55vw;
+  position: relative;
+  top:38vw;
+  left:25vw ;
+}
+.btn-log{
+position: relative;
+top: 75vw;
+left: 50vw;
+width: 15vw;
+background-color: red;
+}
+
+.seta{
+  max-width: 13vw;
+}
+  .tema1{
+    display:none;
+  }
+.facebook{
+  position:absolute;
+  background-color: blue;
+width: 25vw;
+top: 90vw;
+left: 12vw;
+border-radius: 4vw;
+}
+.face{
+  position:relative;
+  width: 8vw;
+ left: 8vw;
+ top:1vw;
+}
+
+.google{
+  position:absolute;
+  background-color: firebrick;
+  width: 25vw;
+top: 90vw;
+left: 40vw;
+border-radius: 4vw;
+}
+
+.goo{
+  position:relative;
+  width: 8vw;
+ left: 8vw;
+ top:1vw;
+ 
+}
+  
+.apple{
+  position:absolute;
+  background-color: black;
+  width: 25vw;
+top: 90vw;
+left: 68vw;
+border-radius: 4vw;
+}
+
+.apl{
+  position:relative;
+  width: 8vw;
+ left:9vw;
+ top:1vw;
+}
+.apple:hover,.google:hover,.facebook:hover{
+  cursor: pointer;
+  box-shadow: 6px 5px 2px rgb(115, 112, 112);
+ transition: 0,8s;
+ }
+
+ .manter{
+  position: relative;
+  top: 103vw;
+  font-size: 3vw;
+  left: -15vw;
+  
+ 
+ }
+
+ .check{
+ background: rgb rgb(87, 86, 86),;
+ text-decoration: none;
+ font-size: black;
+ }
+ 
+ .coluna1{
+ z-index: 1;
+ font-weight: bold
+ }
+ 
+ .edit{
+  position: absolute;
+  top:-2vw ;
+  left: 0vw;
+opacity: 0.6;
+height: 88vw;
+width: 100vw;
+ }
+.neg{
+  position: relative;
+  top: 80vw;
+  left: -20vw;
+   text-decoration: none;
+   width: 45vw;
+   height: 4vw;
+}
+.nega{
+  position: relative;
+  top:29vw;
+  left: 50vw;
+  z-index: 1;
+  text-decoration: none; 
+  width: 20vw;
+  height: 4vw;
+}
+
+.neg,.nega{
+  opacity:0.4;
+}
+
+}
